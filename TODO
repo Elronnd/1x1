@@ -1,0 +1,6 @@
+* Add (optional) IP tracking
+* Add date tracking (by the day, to avoid exact-second correlation attacks)
+* Make uploading files, as opposed to just sending strings work
+* Optionally override content-type/mime-type
+* Benchmark uploading and receiving files vs other popular pastebins -- are we the fastest?
+ * I'm pretty sure that the way files are read is completely wrong but idk how to fix it.  Loading each character into a buffer and then sending each character from the buffer into the network seems wrong.
