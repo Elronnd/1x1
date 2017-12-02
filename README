@@ -1,0 +1,4 @@
+To run, change the *host* parameter in 1x1.lisp, and then type:
+
+sbcl --script prep.lisp
+sbcl --load 1x1.lisp
